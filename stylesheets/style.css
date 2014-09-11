@@ -1,10 +1,15 @@
 /*/////////////////////////////////////////// TIPOGRAFIA  //////////////////////////////////////////*/
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,600italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+.enfase-small{font-family: 'Source Sans Pro', sans-serif; font-weight: 300; font-size: 36px; display: block;}
+.enfase-medium{font-family: 'Source Sans Pro', sans-serif; font-weight: 600; font-size: 48px; font-style: italic; display: block;}
+.enfase-large{font-family: 'Source Sans Pro', sans-serif; font-size: 80px; font-weight: 700;  display: block; letter-spacing: -5px;}
 
-.enfase-small{font-family: 'Source Sans Pro', sans-serif; font-weight: 300; font-size: 36px}
-.enfase-medium{font-family: 'Source Sans Pro', sans-serif; font-weight: 600; font-size: 48px; font-style: italic;}
-.enfase-large{font-family: 'Source Sans Pro', sans-serif; font-size: 80px; font-style: 700}
+.texto-small{font-family: 'Roboto Slab', serif;}
+.texto-medium{font-family: 'Roboto Slab', serif;font-weight: 300; font-size: 36px; display: block;}
+.texto-large{font-family: 'Roboto Slab', serif; font-weight: 700; font-size: 100px; letter-spacing: 0.5}
 
+.block-medium{}
 
 /*/////////////////////////////////////////// HEADER  //////////////////////////////////////////*/
 
@@ -82,8 +87,46 @@ img{
     #section12{ background-image: url(../images/background-apoio.jpg);      }  
 
 
-    /*Adding background for the slides
+    /*infos
     * --------------------------------------- */
+    .info-section0 { display: inline-block; color: #fff; margin-top: 25%; padding-top: 10px; padding-left: 10px; border-left: 7px solid #fba81b; padding-bottom: 10px;}  
+    .info-section0 .enfase-small{ line-height: 10px;}
+    .info-section0 .enfase-medium{line-height: 80px; text-transform: uppercase}
+    .info-section0 .enfase-large{line-height: 50px; text-transform: uppercase}
+
+
+    .info-section1 {width: 100%; position: relative; text-align:right; display: inline-block; color: #fff; margin-top: 10%; padding-top: 10px; padding-right: 20px; border-right: 7px solid #3c3c3c; padding-bottom: 10px; float: right;}  
+    .info-section1 .texto-medium{ color: #626262; margin-bottom: 30px }
+    .info-section1 .enfase-large{  color: #3d3d3d; text-transform: uppercase; font-size: 100px; line-height: 80px; margin-bottom: 10px;}
+    .info-section1 .enfase-large strong{color:#6b270f; font-size: 100px;}
+    .info-section1 .block-medium{font-style: normal; font-size: 26px; display: inline-block; background: #13565b; padding: 0 20px;}
+    .info-section1 .imagem-voce-pode{position: absolute;left: 0; top: -170px}
+
+
+
+    .info-section2 {position: absolute;   height: 100%; width: 100% }
+    .info-section2 .section2-box-top{position: absolute; border: 1px solid blue; height: 70%;  top: 0;width: 100%;}
+    .info-section2 .section2-box-bottom{position:absolute; border: 1px solid red; height: 30%; bottom: 0; width: 100%; background: #13595e url(../images/background-estrategico.png) repeat; }
+
+
+
+
+
+
+
+    .info-section3{}
+    .info-section4{}
+    .info-section5{}
+    .info-section6{}
+    .info-section7{}
+    .info-section8{}
+    .info-section9{}
+    .info-section10{}
+    .info-section11{}
+    .info-section12{}
+
+
+
     #slide1{
         background-image: url(imgs/bg2.jpg);
         padding: 6% 0 0 0;

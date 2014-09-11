@@ -1,0 +1,97 @@
+/*/////////////////////////////////////////// TIPOGRAFIA  //////////////////////////////////////////*/
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,600italic);
+
+.enfase-small{font-family: 'Source Sans Pro', sans-serif; font-weight: 300; font-size: 36px}
+.enfase-medium{font-family: 'Source Sans Pro', sans-serif; font-weight: 600; font-size: 48px; font-style: italic;}
+.enfase-large{font-family: 'Source Sans Pro', sans-serif; font-size: 80px; font-style: 700}
+
+
+/*/////////////////////////////////////////// HEADER  //////////////////////////////////////////*/
+
+    header{ background: #fff;  width: 100%; display: inline-block;  position: fixed; z-index: 1000 }
+    header nav{float: right;  }
+
+ /* brand */
+    .box-brand{ position: relative; width: 170px;  height: 70px; }
+    .before-brand{ position: absolute; background: #fff; width: 300px; height: 300px; display: inline-block; border-radius: 50%; top: -195px; left: -50px}
+    .brand { background: url(../images/sprite.png) 0px -63px; position: absolute; font-size: 0; text-indent: -999999; width: 170px; height: 70px; display: block; float: left; top: 7px; }
+    .brand:hover{ opacity: 0.8}
+
+
+ /* main menu */
+    .main-menu, .social-menu{ display: inline-block;  float: left;  }
+    .main-menu{ padding-top: 0px;   margin: 0 40px 0 0}
+    .main-menu:hover{ }
+    .main-menu li {list-style: none;  font-size: 16px; display: inline-block; float: left; }
+    .main-menu li a{  padding: 15px 10px; text-decoration: none; color: #a6a6a6; font-family:source_sans_proregular, sans-serif;  border-top: 2px solid transparent; display: block;}
+    .main-menu li a:hover, .main-menu li.active a{ border-top: 2px solid #f9a518; color: #f9a518}
+ 
+ /* social menu */
+    .social-menu{ margin: 16px 0 0 0}
+    .social-menu li{ display: inline-block;  }
+    .social-menu li a{  text-decoration: none; display: block; width: 30px; height: 30px; overflow: hidden;   text-indent: -999999; font-size: 0}
+    .social-menu li a:hover{ opacity: 0.6; }
+    .icon-facebook{ background: red;  background: url(../images/sprite.png); background-position: -5px 0; }
+    .icon-linkedin{ background: blue;  background: url(../images/sprite.png); background-position: -55px 0; }
+    .icon-google-plus{ background: green;  background: url(../images/sprite.png); background-position: -103px 0; }
+
+
+
+
+img{
+        -webkit-transition: all 0.7s ease-out;
+        -moz-transition: all 0.7s ease-out;
+        -o-transition: all 0.7s ease-out;
+        transition: all 0.7s ease-out;
+    }
+
+/* 'Slide Destino  //////////////////////////////////////////*/
+/* Backgrounds will cover all the section
+    * --------------------------------------- */
+    #section0,
+    #section1,
+    #section2,
+    #section3, 
+    #section4,
+    #section5,
+    #section6,
+    #section7,
+    #section8,
+    #section9,
+    #section10,
+    #section11,
+    #section12{
+        background-size: cover;
+    }
+
+    /* Defining each section background and styles
+    http://www.picresize.com/
+    * --------------------------------------- */
+    #section0{ background-image:url(../images/background-destino.jpg);  border-bottom: 15px solid #f25822}
+    #section1{ background-image: url(../images/background-vocepode.jpg);  }
+    #section2{ background-image: url(../images/background-custozero.jpg); } 
+    #section3{ background-image: url(../images/background-beneficios.jpg); } 
+    #section4{ background-image: url(../images/background-comofunciona.jpg); } 
+    #section5{ background-image: url(../images/background-receber.jpg); } 
+    #section6{ background-image: url(../images/background-analisar.jpg); } 
+    #section7{ background-image: url(../images/background-financiar.jpg);      } 
+    #section8{ background-image: url(../images/background-analisar.jpg);      } 
+    #section9{ background-image: url(../images/background-custozero.jpg);      } 
+    #section10{ background-image: url(../images/background-acompanhar.jpg);      } 
+    #section11{ background-image: url(../images/background-contato.jpg);      } 
+    #section12{ background-image: url(../images/background-apoio.jpg);      }  
+
+
+    /*Adding background for the slides
+    * --------------------------------------- */
+    #slide1{
+        background-image: url(imgs/bg2.jpg);
+        padding: 6% 0 0 0;
+    }
+    #slide2{
+        background-image: url(imgs/bg5.jpg);
+        padding: 6% 0 0 0;
+    }
+
+
+ 

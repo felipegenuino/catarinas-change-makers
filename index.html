@@ -13,19 +13,26 @@
 
 	<link rel="stylesheet" type="text/css" href="libs/fullpage/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+	<link rel="stylesheet" type="text/css" href="libs/animate/animate.css" />
 	 
 
-
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
 
 </head>
 <body>
  
 
 <header>
-    <div class="container">
+    <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="container-brand">
+                    <div class="container-fluid-brand">
                         <div class="before-brand"></div>
                         <a href="#home" class="brand">Chenge Makers</a>
                     </div>
@@ -46,7 +53,7 @@
                     </nav>
                 </div><!--// col-sm-12 -->
             </div> <!--// row -->
-    </div>  <!--// container -->
+    </div>  <!--// container-fluid -->
 </header>
 
 
@@ -54,12 +61,12 @@
 
 <div id="fullpage">
 
-	<div class="section destino" id="section0">
+	<div class="section home" id="section0">
 		<div class="container">
 			<div class="row">
 			            <div class="col-sm-12">
-			              	<div class="info-section0">
-			              		<span class="enfase-small"> já pensou se você pudesse </span>
+			              	<div class="group-titile">
+  			              		<span class="enfase-small"> já pensou se você pudesse </span>
 			              		<span class="enfase-medium"> Escolher o destino de seus </span>
 			              		<span class="enfase-large"> Impostos? </span>
  			         		</div> <!-- // info-main-section -->
@@ -73,115 +80,266 @@
 
 
 	
-	<div class="section destino" id="section1">
+	<div class="section voce-pode" id="section1" >
 		<div class="container">
 			<div class="row">
- 			            <div class="col-sm-12">
-			              	<div class="info-section1">
-			              		<img src="images/voce-pode.png" alt="" class="imagem-voce-pode">
+						<div class="col-lg-5">
+							<img src="images/voce-pode.png" alt="" class="hidden-xs hidden-sm imagem-voce-pode">
+ 			            </div><!--//col-sm-5 -->
+
+ 			            <div class="col-lg-7">
+			              	<div class=" info-section info-section1">
 			              		<span class="enfase-large"> Você pode! <strong class="texto-large">8%</strong> </span>
  			              		<span class="texto-medium"> 
- 			              				Do total pago de imposto de <br>
- 			              			 	renda pode ser destinado a <br>
- 			              			 	projetos sociais, culturais e  <br>
+ 			              				Do total pago de imposto de 
+ 			              			 	renda pode ser destinado a  
+ 			              			 	projetos sociais, culturais e   
  			              			 	esportivos no Brasil </span>
 								<span class="block-medium enfase-medium">6% pessoas físicas e 8% jurídicas </span>
  			         		</div> <!-- // info-main-section -->
 
- 			            </div><!--//col-sm-12-->
+ 			            </div><!--//col-sm-7-->
 			 </div> <!-- // row -->
-		</div> <!-- // container -->
+		</div> <!-- // container-fluid -->
 	</div> <!-- // section1 --> 
 
 
 
 
 
-	<div class="section" id="section2">
-				 
-					              	<div class="info-section2">
-					              		 <div class="section2-box-top">
-					              		 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat temporibus laborum delectus odio exercitationem commodi voluptates explicabo, minus quidem eius mollitia dicta laudantium amet dignissimos ratione debitis necessitatibus consequatur nemo.
-					              		 </div><!-- // section2-box-top -->
 
-					              		 <div class="section2-box-bottom">
-												<div class="container">
-																<div class="row">
-													 			            <div class="col-sm-3">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minus eligendi odit minima blanditiis accusamus dolores reprehenderit enim. Sapiente saepe ut odio reprehenderit doloremque praesentium, qui fugit nemo aspernatur ipsa!
-													 			            </div><!--//col-sm-3-->
 
-													 			             <div class="col-sm-9">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minus eligendi odit minima blanditiis accusamus dolores reprehenderit enim. Sapiente saepe ut odio reprehenderit doloremque praesentium, qui fugit nemo aspernatur ipsa!
-													 			            </div><!--//col-sm-9-->
-																 </div> <!-- // row -->
-												</div> <!-- // container -->
-	            					    </div><!--// section2-box-bottom -->
 
- 		 			         		</div> <!-- // info-section -->
- 
+
+
+
+
+	<div class="section incentivos" id="section2">
+        <div class=" info-section info-section2">
+	      		<div class="box-top">
+	      		 		<div class="container-fluid">
+								<div class="row">
+				 			            <div class="col-sm-12 text-center ">
+				 			            	<img src="images/incentivos.png" alt="Incentivos" class="text-center imagem-incentivos ">
+					 			        </div><!--//col-sm-12-->
+								 </div> <!-- // row -->
+						</div> <!-- // container-fluid -->
+	          	</div><!-- // section2-box-top -->
+
+          		 <div class="box-bottom">
+						<div class="container-fluid">
+								<div class="row">
+			 			            <div class="col-xs-4  text-right">
+			 			            		<img src="images/incentivos2.png" alt="Tipos de incentivos" >
+				 			            </div><!--//col-sm-3-->
+
+			 			             <div class="col-xs-8">
+			 			             		<h3 class="texto-small">Com estes incentivos, o Investimento Social Privado </br>
+			 			             		se torna um <strong>braço estratégico</strong> da responsabilidade </br>
+			 			             		social das empresas brasileiras.</h3>
+				 			         </div><!--// col-xs-8 -->
+								 </div> <!-- // row -->
+						</div> <!-- // container-fluid -->
+			    </div><!--// section2-box-bottom -->
+	    </div> <!-- // info-section -->
 	</div> <!-- // section2 --> 
 
-	<div class="section" id="section3">
+
+
+
+
+
+
+
+
+	<div class="section dificuldades" id="section3">
+		<div class="container">
+				<div class="row">
+					<div class="col-xs-6">
+							<div class="group-titile ">
+  			              		<span class="enfase-medium">Por que é difícil </span>
+			              		<span class="enfase-large"> Investir? </span>
+ 			         		</div> <!-- // group-titile  -->
+
+ 			         		<ul>
+ 			         			<li> Estrutura física, recursos humanos, tecnologia </br> e <strong>investimento financeiro</strong>. </li>
+ 			         			<li> Falta de <strong>conhecimento especializado </br> </strong> e insegurança contábil e jurídica para </br> operacionalizar o processo. </li>
+ 			         			<li> Gestão do Investimento Social Privado demanda </br> <strong>esforço operacional</strong> não relacionado ao </br> core business  da empresa. </li>
+ 			         			<li> Dificuldade no acompanhamento </br> e <strong>mensuração de resultados</strong>. </li>
+ 			         			<li> <strong>Assédio</strong> por parte dos proponentes de projetos. </li>
+ 			         		</ul>
+
+					</div><!--// col-xs-6 -->
+
+					<div class="col-xs-6">
+						<img src="images/investir.png" alt="Por que é difícil investir?" class="image-resposive-y">
+					</div><!--// col-xs-6 -->
+ 				</div> <!-- // row -->
+		</div> <!-- // container -->
+	</div> <!-- // section3 --> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="section conheca" id="section4">
+		<div class="box-top">
+			<div class="container">
+					<div class="row">
+						<div class="col-xs-7 block-content">
+								<img src="images/logo-branco.png" alt="Por que é difícil investir?" class="logotipo-change-markers">
+								<h3 class="texto-small">Plataforma de gestão para o investimento </br> social privado via incentivos fiscais.</h3>
+								<span class="block-medium enfase-medium">Inovação e Tecnologia em prol da transformação social</span>
+						</div><!--// col-xs-7 -->
+
+						<div class="col-xs-5">
+							<img src="images/preview.png" alt="Por que é difícil investir?" class="image-resposive-y">
+						</div><!--// col-xs-5 -->
+	 				</div> <!-- // row -->
+			</div> <!-- // container -->
+		</div> <!-- // box-top -->
+
+		<div class="box-bottom">
+			<div class="container">
+					<div class="row">
+						<div class="col-xs-4">
+							<img src="images/ft_01.png"> 
+							<h4>Plataforma Web</h4>
+							<p>Fácil, simple e inteligente</p>
+						</div><!--// col-xs-4 -->
+
+						<div class="col-xs-4">
+							<img src="images/ft_02.png">
+							<h4>Tecnologia</h4>
+							<p>Que une financiadores e realizadores de projetos, em um diálogo onde se utiliza a mesma linguagem.</p>
+						</div><!--// col-xs-4 -->
+
+
+						<div class="col-xs-4">
+							<img src="images/ft_03.png">
+							<h4>Proximidade e Transparência</h4>
+							<p>Para o uso de incentivos fiscais.</p>
+						</div><!--// col-xs-4 -->
+
+					</div> <!-- // row -->
+			</div> <!-- // container -->
+		</div> <!-- // box-top -->
+	</div> <!-- // #section4 -->
+
+
+
+
+
+
+
+
+
+	<div class="section custo-zero" id="section5">
+		 <div class="box-top">
+			<div class="container">
+					<div class="row">
+						<div class="col-xs-5">
+								 <img  class="imagem-investidores"  src="images/custo-zero-investidores.png">
+  						</div><!--// col-xs-7 -->
+
+						<div class="col-xs-2">
+								 <img class="imagem-custo-zero"  src="images/custo-zero.png">
+						</div><!--// col-xs-2 -->
+
+						<div class="col-xs-5">
+							 <img class="imagem-proponente" src="images/custo-zero-proponente.png">
+						</div><!--// col-xs-5 -->
+	 				</div> <!-- // row -->
+			</div> <!-- // container -->
+		</div> <!-- // box-top -->
+
+		<div class="box-bottom">
+			<div class="container">
+					<div class="row">
+						<div class="col-xs-4 pull-left">
+ 							<h4>Investidores</h4>
+							<p> 
+								<strong>1 000 empresas brasileiras aptas a incentivar projetos</strong>
+								tecnologia para seleção, análise e financiamento de projetos incentivados
+							</p>
+						</div><!--// col-xs-4 --> 
+
+
+						<div class="col-xs-4 pull-right">
+ 							<h4>Proponente</h4>
+							<p>
+								<strong>12 000 projetos/ano em busca de recursos</strong>
+								tecnologia para captar recursos para seus projetos
+							</p>
+						</div><!--// col-xs-4 -->
+
+					</div> <!-- // row -->
+			</div> <!-- // container -->
+		</div> <!-- // box-top -->
+	</div> <!-- // 3section#5-->
+
+
+
+	<div class="section beneficios" id="section6">
 		<div class="intro">
-			<h1>Enjoy it</h1>
+			<h1>Beneficios</h1>
 		</div>
 	</div>
 
-	<div class="section" id="section4">
+	<div class="section como-funciona" id="section7">
 		<div class="intro">
-			<h1>Enjoy it</h1>
-		</div>
-	</div>
-
-	<div class="section" id="section5">
-		<div class="intro">
-			<h1>Enjoy it</h1>
-		</div>
-	</div>
-
-	<div class="section" id="section6">
-		<div class="intro">
-			<h1>Enjoy it</h1>
+			<h1>Como funciona</h1>
 		</div>
 	</div>
 
 
-<div class="section" id="section7">
+<div class="section receber" id="section8">
 		<div class="intro">
-			<h1>Enjoy it</h1>
+			<h1>Receber</h1>
 		</div>
 	</div>
 
 
-	<div class="section" id="section8">
+	<div class="section analisar" id="section9">
 		<div class="intro">
-			<h1>Enjoy it</h1>
+			<h1>Analisar</h1>
 		</div>
 	</div>
 
 
-	<div class="section" id="section9">
+	<div class="section financiar " id="section10">
 		<div class="intro">
-			<h1>Enjoy it</h1>
+			<h1>Financiar</h1>
 		</div>
 	</div>
 
-	<div class="section" id="section10">
+	<div class="section acompanhar" id="section11">
 		<div class="intro">
-			<h1>Enjoy it</h1>
+			<h1>Acompanhar</h1>
 		</div>
 	</div>
 
-	<div class="section" id="section11">
+	<div class="section contato" id="section12" >
 		<div class="intro">
-			<h1>Enjoy it</h1>
+			<h1>contato</h1>
 		</div>
 	</div>
 
-	<div class="section" id="section12">
+	<div class="section apoio" id="section13"  >
 		<div class="intro">
-			<h1>Enjoy it</h1>
+			<h1>Apoio</h1>
 		</div>
 	</div>
 
@@ -204,10 +362,17 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minus eligendi o
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
 	<script type="text/javascript" src="libs/vendors/jquery.slimscroll.min.js"></script>
-
+ 
 	<script type="text/javascript" src="libs/fullpage/jquery.fullPage.js"></script>
+ 		<script type='text/javascript' src='libs/loader/queryLoader.js'></script>
+
  	<script type="text/javascript" src="libs/main.js"></script>
 
+
+
+ 	<script>
+ 	 document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+ 	</script>
 
 	 
 </body>

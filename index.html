@@ -28,35 +28,14 @@
 <body>
  
 <div class="loader loader-background">
-	<style>
-
-/* preloader */
-    .loader{      background: #333;     position: fixed;     width: 100%;     height: 100%;     top: 0;     bottom: 0;     left: 0;     right: 0;     z-index: 20000;      text-align: center;}
-    .loader-background{ background: url('images/pattern.jpg');}
-    .loader-container{  height: 80%;     width: 50%;     color: #fff;      text-align: center;      padding-top: 15%; margin: 5% 25%;     font-family: 'Roboto Slab', serif;font-weight: 300; font-size: 18px;}
-    .loader-imagem{width: 150px}
-    .loader-carregando{ display: inline-block; border-left: 1px solid #888; padding: 30px; margin-left: 30px; -webkit-animation: carregando 2s linear infinite; animation: carregando 2s linear infinite; }
-
-    @-webkit-keyframes carregando {
-        0%   { color: #fff; }
-        50%{  color: #aaa; }
-        100% {  color: #fff }
-    }
-    @keyframes carregando {
-       0%   { color: #fff; }
-        50%{  color: #aaa; }
-        100% {  color: #fff }
-    }
-/* fim preloader*/
-
-</style>
-
  	<div class="loader-container">
 		<img  class="loader-imagem" src="images/logo-branco.png" alt="">
 		<span class="loader-carregando">Carregando página</span>
 	</div>
+</div>	<!-- // loader-background -->
 
-</div>		
+
+
 
 <header class="animated fadeInDown">
     <div class="container-fluid">
@@ -331,14 +310,20 @@
 
 	<div class="section beneficios-e-funcionalidades" id="section6">
 		 <div class="box-top">
-				<div class="container">
+				<div class="container-fluid fluid">
 						<div class="row">
-							<div class="col-xs-6">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eligendi totam, molestias reiciendis natus numquam esse magnam. Facere, quod, quasi. Assumenda similique dicta officiis accusamus aut quaerat facere animi illum!
- 	  						</div><!--// col-xs-6 -->
+							<div class="col-xs-6 fluid">
+									<div class="box-beneficios">
+										<h2> Benefícios </h2>
+										<img  class="imagem-beneficios"  src="images/beneficios-imagem.png">
+									</div> <!-- ///box-beneficios -->
+  	  						</div><!--// col-xs-6 -->
 
-							<div class="col-xs-6">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus laborum accusamus sint temporibus. Ipsum neque, optio architecto saepe quaerat possimus rerum provident. Eveniet reiciendis minus accusamus sapiente inventore non, quas!
+							<div class="col-xs-6 fluid">
+									<div class="box-funcionalidades">
+										<h2> Funcionalidades </h2>
+										<img  class="imagem-funcionalidades"  src="images/funcionalidades-imagem.png">
+									</div> <!-- ///box-funcionalidades -->
 							</div><!--// col-xs-6 -->
  
 		 				</div> <!-- // row -->
@@ -346,20 +331,142 @@
 			</div> <!-- // box-top -->
 
 			<div class="box-bottom">
-				<div class="container">
+				 <div class="container-fluid">
 						<div class="row">
 							<div class="col-xs-6">
- 								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex veritatis omnis officiis recusandae delectus adipisci fugiat suscipit quos aliquam nam, quam numquam deserunt, sed blanditiis, molestias quisquam ullam expedita temporibus.
-							</div><!--// col-xs-6 --> 
 
+								<div class="panel-group accordion-beneficios" id="accordion">
+								  <div class="panel panel-default">
+								    <div class="panel-heading">
+								      <h4 class="panel-title">
+								        <a data-toggle="collapse" data-parent="#accordion" href="#beneficio1">
+								          Comunicação via plataforma
+								        </a>
+								      </h4>
+								    </div>
+								    <div id="beneficio1" class="panel-collapse collapse in">
+								      <div class="panel-body">
+								       Toda a comunicação acontece via plataforma. 
+								      </div>
+								    </div>
+								  </div>
+								  <div class="panel panel-default">
+								    <div class="panel-heading">
+								      <h4 class="panel-title">
+								        <a data-toggle="collapse" data-parent="#accordion" href="#beneficio2">
+								          Padronização de linguagem
+								        </a>
+								      </h4>
+								    </div>
+								    <div id="beneficio2" class="panel-collapse collapse">
+								      <div class="panel-body">
+								      	Lorem ipsum dolor sit amet, consectetur adipisicing elit
+ 								      </div>
+								    </div>
+								  </div>
+								  
+								  <div class="panel panel-default">
+								    <div class="panel-heading">
+								      <h4 class="panel-title">
+								        <a data-toggle="collapse" data-parent="#accordion" href="#beneficio3">
+								         Conectividade com redes sociais
+								        </a>
+								      </h4>
+								    </div>
+								    <div id="beneficio3" class="panel-collapse collapse">
+								      <div class="panel-body">
+								      	Lorem ipsum dolor sit amet, consectetur adipisicing elit
+ 								      </div>
+								    </div>
+								  </div>
+								  <div class="panel panel-default">
+								    <div class="panel-heading">
+								      <h4 class="panel-title">
+								        <a data-toggle="collapse" data-parent="#accordion" href="#beneficio4">
+								          Custo zero
+								        </a>
+								      </h4>
+								    </div>
+								    <div id="beneficio4" class="panel-collapse collapse">
+								      <div class="panel-body">
+								      	Lorem ipsum dolor sit amet, consectetur adipisicing elit
+ 								      </div>
+								    </div>
+								  </div>
+
+								</div>
+
+
+
+
+   	  						</div><!--// col-xs-6 -->
 
 							<div class="col-xs-6">
- 								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex veritatis omnis officiis recusandae delectus adipisci fugiat suscipit quos aliquam nam, quam numquam deserunt, sed blanditiis, molestias quisquam ullam expedita temporibus.
-							</div><!--// col-xs-6 --> 
+								
+								<div class="panel-group accordion-funcionalidades" id="accordion2">
+								  <div class="panel panel-default">
+								    <div class="panel-heading">
+								      <h4 class="panel-title">
+								        <a data-toggle="collapse" data-parent="#accordion2" href="#funcionalidade1">
+								          Tecnologia para patrocínio incentivado
+								        </a>
+								      </h4>
+								    </div>
+								    <div id="funcionalidade1" class="panel-collapse collapse in">
+								      <div class="panel-body">
+								      	Lorem ipsum dolor sit amet, consectetur adipisicing elit
+ 								      </div>
+								    </div>
+								  </div>
+								  <div class="panel panel-default">
+								    <div class="panel-heading">
+								      <h4 class="panel-title">
+								        <a data-toggle="collapse" data-parent="#accordion2" href="#funcionalidade2">
+								          Busca inteligente para projetos
+								        </a>
+								      </h4>
+								    </div>
+								    <div id="funcionalidade2" class="panel-collapse collapse">
+								      <div class="panel-body">
+								      	Lorem ipsum dolor sit amet, consectetur adipisicing elit
+ 								      </div>
+								    </div>
+								  </div>
+								  <div class="panel panel-default">
+								    <div class="panel-heading">
+								      <h4 class="panel-title">
+								        <a data-toggle="collapse" data-parent="#accordion2" href="#funcionalidade3">
+								          Cruzamento de dados
+								        </a>
+								      </h4>
+								    </div>
+								    <div id="funcionalidade3" class="panel-collapse collapse">
+								      <div class="panel-body">
+								      	Lorem ipsum dolor sit amet, consectetur adipisicing elit
+								      </div>
+								    </div>
+								  </div>
+								  <div class="panel panel-default">
+								    <div class="panel-heading">
+								      <h4 class="panel-title">
+								        <a data-toggle="collapse" data-parent="#accordion2" href="#funcionalidade4">
+								          Gestão do ISP
+								        </a>
+								      </h4>
+								    </div>
+								    <div id="funcionalidade4" class="panel-collapse collapse">
+								      <div class="panel-body">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit
+								      </div>
+								    </div>
+								  </div>
+								</div>
 
-
-						</div> <!-- // row -->
+							</div><!--// col-xs-6 -->
+ 
+		 				</div> <!-- // row -->
 				</div> <!-- // container -->
+
 			</div> <!-- // box-bottom -->
 	</div><!-- // section6 -->
 
@@ -425,16 +532,17 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	 <script src="libs/bootstrap/bootstrap.min.js"></script>
 
 	<script type="text/javascript" src="libs/vendors/jquery.slimscroll.min.js"></script>
- 
-	<script type="text/javascript" src="libs/fullpage/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="libs/fullpage/jquery.fullPage.js"></script>    
+
  	<script type="text/javascript" src="libs/main.js"></script>
 
 
 
  	<script>
- 	 //document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+ 	 document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
  	</script>
 
 	 

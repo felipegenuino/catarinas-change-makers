@@ -4,6 +4,26 @@
 
 
 
+/* preloader */
+    .loader{      background: #333;     position: fixed;     width: 100%;     height: 100%;     top: 0;     bottom: 0;     left: 0;     right: 0;     z-index: 20000;      text-align: center;}
+    .loader-background{ background: url('../images/pattern.jpg');}
+    .loader-container{  height: 80%;     width: 50%;     color: #fff;      text-align: center;      padding-top: 15%; margin: 5% 25%;     font-family: 'Roboto Slab', serif;font-weight: 300; font-size: 18px;}
+    .loader-imagem{width: 150px}
+    .loader-carregando{ display: inline-block; border-left: 1px solid #888; padding: 30px; margin-left: 30px; -webkit-animation: carregando 2s linear infinite; animation: carregando 2s linear infinite; }
+
+    @-webkit-keyframes carregando {
+        0%   { color: #fff; }
+        50%{  color: #aaa; }
+        100% {  color: #fff }
+    }
+    @keyframes carregando {
+       0%   { color: #fff; }
+        50%{  color: #aaa; }
+        100% {  color: #fff }
+    }
+/* fim preloader*/
+
+
 
 
 
@@ -231,7 +251,7 @@ img{
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02386a', endColorstr='#2265a7',GradientType=0 ); /* IE6-8 */
              } 
     #section5{ background-image: url(../images/background-custozero.jpg); } 
-    #section6{ background-image: url(../images/background-analisar.jpg); } 
+    #section6{ background-image: url(../images/background-beneficios.jpg) ; background-position: bottom center; } 
     #section7{ background-image: url(../images/background-financiar.jpg);      } 
     #section8{ background-image: url(../images/background-analisar.jpg);      } 
     #section9{ background-image: url(../images/background-custozero.jpg);      } 
@@ -312,9 +332,74 @@ img{
  
 /* BENEFICIOS E FUNCIONALIDADES */
     #section6{}
-    #section6 .box-top{ position: absolute; padding-top: 50px ;    height: 20%;  top: 0px; width: 100%;  z-index: 2000;  border-bottom: 15px solid #dea038}
-    #section6 .box-bottom{  padding: 10px 0; position:absolute;   height: 80%;    bottom: 0;   width: 100%;   z-index: 2000 ; background: #263545; z-index: 1000 }
+    #section6 .box-top{ position: absolute; padding-top: 0px ;    height: 15%;  top: 0; width: 100%;  z-index: 2000;  border-bottom: 15px solid #dea038}
+    #section6 .box-bottom{  padding: 10px 0; position:absolute;   height: 55%;  bottom: 0;   width: 100%;   z-index: 2000 ;   z-index: 4000 }
 
- 
+
+#section6 .fluid{ margin: 0; padding: 0}
+
+#section6 .box-beneficios, #section6 .box-funcionalidades{
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 300; font-size: 36px; 
+color: #fff; padding: 90px 0 60px 0;
+text-align: center; 
+text-transform: uppercase;
+}
+
+
+ #section6 .box-beneficios{   background: #18656d;  border-bottom: 10px solid #145a5f}
+ #section6 .box-funcionalidades{  background: #0a2c2f;  border-bottom: 10px solid #09282a}
+
+.imagem-beneficios, .imagem-funcionalidades{ width: 150px ; position: absolute; top: 150px; left: 50%; right: 0; margin-left:-75px }
+.imagem-funcionalidades{}
+.imagem-beneficios{}
+
+
+.accordion-funcionalidades, .accordion-beneficios{
+    width: 80%;
+    margin-left: 10%;
+   
+    }
+
+    .panel .panel-heading{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 300; font-size: 22px;
+    border-radius: 0; 
+    padding: 15px 0;
+    border-top: 1px solid #15383b;
+   }
+
+
+
+   .accordion-funcionalidades .panel .panel-heading{ background: rgba(18, 48, 51, 0.9)}
+   .accordion-beneficios .panel .panel-heading{ background: #145e63}
+
+.panel-group .panel+.panel {
+margin-top: 0;
+}
+
+.accordion-beneficios .panel,  .accordion-funcionalidades  .panel{     background: none ;  border: none; }
+.accordion-beneficios .panel-collapse,  .accordion-funcionalidades  .panel-collapse{
+    background: #fff;
+    /*width: 90%;
+    margin-left: 5%;*/
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    font-family: 'Roboto Slab';
+    text-align: center; font-weight: 300; font-size: 18px;  
+ }
+
+.accordion-beneficios .collapse.in .panel-heading{ background: #104a4e}
+
+    .panel .panel-heading .panel-title{}
+    .panel .panel-heading .panel-title a{}
+
+.accordion-funcionalidades, .accordion-beneficios{}
+
+.accordion-funcionalidades{}
+.accordion-beneficios{}
+
+
 
  

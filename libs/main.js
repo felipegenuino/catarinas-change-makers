@@ -76,10 +76,12 @@ $(document).ready(function() {
 
 		          },
 		        afterRender: function(){ /*alert("The resulting DOM stucture is ready"); */ 	      
- 		        	 $('.loader').hide();
-		        	 $('.header').addClass('animated fadeInDownBig'); 
+ 		        	 $('.header').addClass('animated fadeInDownBig'); 
 
 
+					window.onload = function() { $('.loader').hide(); }
+
+					
  		         },
 		        afterResize: function(){ /*alert("The sections have finished resizing"); */		       },
 		        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){  },
@@ -94,9 +96,6 @@ $(document).ready(function() {
 
 
  
-
-
-
 
  
 

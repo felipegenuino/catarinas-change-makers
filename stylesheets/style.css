@@ -1,6 +1,106 @@
 /*/////////////////////////////////////////// TIPOGRAFIA  //////////////////////////////////////////*/
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,600italic);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+
+.loader{
+    background: #333;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20000;
+     text-align: center;
+
+
+    
+}
+
+.loader-container{
+    border: 1px solid #555;
+    height: 80%;
+    width: 50%;
+    color: #fff;
+     text-align: center;
+     padding-top: 15%;
+    margin: 5% 25%;
+    font-family: 'Roboto Slab', serif;font-weight: 300; font-size: 36px;
+   }
+
+
+
+.delay-1s{
+       -moz-animation-duration: 1s;
+          -moz-animation-delay: 1s;
+            animation-duration: 1s;
+               animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+       -webkit-animation-delay: 1s;
+}
+
+.delay-2s{
+       -moz-animation-duration: 2s;
+          -moz-animation-delay: 2s;
+            animation-duration: 2s;
+               animation-delay: 2s;
+    -webkit-animation-duration: 2s;
+       -webkit-animation-delay: 2s;
+}
+
+
+.delay-3s{
+       -moz-animation-duration: 3s;
+          -moz-animation-delay: 3s;
+            animation-duration: 3s;
+               animation-delay: 3s;
+    -webkit-animation-duration: 3s;
+       -webkit-animation-delay: 3s;
+}
+
+
+.delay-4s{
+       -moz-animation-duration: 4s;
+          -moz-animation-delay: 4s;
+            animation-duration: 4s;
+               animation-delay: 4s;
+    -webkit-animation-duration: 4s;
+       -webkit-animation-delay: 4s;
+}
+
+
+.delay-5s{
+       -moz-animation-duration: 5s;
+          -moz-animation-delay: 5s;
+            animation-duration: 5s;
+               animation-delay: 5s;
+    -webkit-animation-duration: 5s;
+       -webkit-animation-delay: 5s;
+}
+
+
+.delay-6s, header{
+       -moz-animation-duration: 6s;
+          -moz-animation-delay: 6s;
+            animation-duration: 6s;
+               animation-delay: 6s;
+    -webkit-animation-duration: 6s;
+       -webkit-animation-delay: 6s;
+}
+
+.delay-7s{
+       -moz-animation-duration: 7s;
+          -moz-animation-delay: 7s;
+            animation-duration: 7s;
+               animation-delay: 7s;
+    -webkit-animation-duration: 7s;
+       -webkit-animation-delay: 7s;
+}
+
+
+
+
 .enfase-small{font-family: 'Source Sans Pro', sans-serif; font-weight: 300; font-size: 36px; display: block;}
 .enfase-medium{font-family: 'Source Sans Pro', sans-serif; font-weight: 600; font-size: 48px; font-style: italic; display: block;}
 .enfase-large{font-family: 'Source Sans Pro', sans-serif; font-size: 80px; font-weight: 700;  display: block; letter-spacing: -5px;}
@@ -16,7 +116,7 @@
 
 /*/////////////////////////////////////////// HEADER  //////////////////////////////////////////*/
 
-    header{ background: #fff;  width: 100%; display: inline-block;  position: fixed; z-index: 10000 }
+    header{ background: #fff;  width: 100%; display: inline-block;  position: fixed; z-index: 10000;  }
     header nav{float: right;  }
 
  /* brand */

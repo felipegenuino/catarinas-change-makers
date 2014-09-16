@@ -2,7 +2,7 @@
 ////// jQuery FullPage ////////
 $(document).ready(function() {
 			$('#fullpage').fullpage({
-                 anchors: ['home','voce-pode','incentivos','dificuldade','conheca', 'custo-zero', 'beneficios',  'como-funciona',  'receber', 'analisar',  'financiar',  'acompanhar',  'contato',  'apoio' ],
+                 anchors: ['home','voce-pode','incentivos','dificuldade','conheca', 'custo-zero', 'beneficios-e-funcionalidades',  'como-funciona',  'receber', 'analisar',  'financiar',  'acompanhar',  'contato',  'apoio' ],
 				// sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
 				 menu: '#main-menu',
  				navigation: true,
@@ -11,7 +11,7 @@ $(document).ready(function() {
  				 //autoScrolling: false,
  				 //fixedElements: '.imagem-voce-pode',
  				navigationPosition: 'right',
-				navigationTooltips: ['Home', 'Você pode',  'Incentivos', 'Por que é difícil investir',  'Conheça', 'Custo Zero', 'dot-beneficios',  'dot-como-funciona',  'dot-receber', 'dot-analisar',  'dot-financiar',  'dot-acompanhar',  'dot-contato',  'dot-apoio' ],
+				navigationTooltips: ['Home', 'Você pode',  'Incentivos', 'Por que é difícil investir',  'Conheça', 'Custo Zero', 'Benefícios e Funcionalidades',  'dot-como-funciona',  'dot-receber', 'dot-analisar',  'dot-financiar',  'dot-acompanhar',  'dot-contato',  'dot-apoio' ],
 			
 				onLeave: function(index, nextIndex, direction){ 
  

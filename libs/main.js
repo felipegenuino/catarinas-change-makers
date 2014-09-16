@@ -45,19 +45,19 @@ $(document).ready(function() {
   						 }
 
   						 if(index == '4'){ 
-  						 	$('#section4 .animation-1') .addClass('delay-1s  animated fadeInRightBig'); 
-  						 	$('#section4 .animation-2') .addClass('delay-2s  animated fadeInLeftBig'); 
- 						 	$('#section4 .animation-3') .addClass('delay-3s  animated fadeInLeftBig'); 
-						 	$('#section4 .animation-4') .addClass('delay-4s  animated fadeInLeftBig');  
-						 	$('#section4 .animation-5') .addClass('delay-5s  animated fadeInUpBig');   
-						 	$('#section4 .animation-6') .addClass('delay-6s  animated fadeInUpBig');    
-						 	$('#section4 .animation-7') .addClass('delay-7s  animated fadeInUpBig'); 
-						 	$('#section4 .animation-8') .addClass('delay-8s  animated fadeInUpBig');   
-						 	$('#section4 .animation-9') .addClass('delay-9s  animated fadeInUpBig');    
-						 	$('#section4 .animation-10').addClass('delay-10s animated fadeInUpBig'); 
-						 	$('#section4 .animation-11').addClass('delay-11s animated fadeInUpBig');   
-						 	$('#section4 .animation-12').addClass('delay-12s animated fadeInUpBig');    
-						 	$('#section4 .animation-13').addClass('delay-13s animated fadeInUpBig'); 
+  						 	$('#section4 .animation-1') .addClass('          animated fadeInRightBig'); 
+  						 	$('#section4 .animation-2') .addClass('delay-1s  animated fadeInLeftBig'); 
+ 						 	$('#section4 .animation-3') .addClass('delay-2s  animated fadeInLeftBig'); 
+						 	$('#section4 .animation-4') .addClass('delay-3s  animated fadeInLeftBig');  
+						 	$('#section4 .animation-5') .addClass('delay-4s  animated fadeInUpBig');   
+						 	$('#section4 .animation-6') .addClass('delay-5s  animated fadeInUpBig');    
+						 	$('#section4 .animation-7') .addClass('delay-6s  animated fadeInUpBig'); 
+						 	$('#section4 .animation-8') .addClass('delay-7s  animated fadeInUpBig');   
+						 	$('#section4 .animation-9') .addClass('delay-8s  animated fadeInUpBig');    
+						 	$('#section4 .animation-10').addClass('delay-9s  animated fadeInUpBig'); 
+						 	$('#section4 .animation-11').addClass('delay-10s animated fadeInUpBig');   
+						 	$('#section4 .animation-12').addClass('delay-11s animated fadeInUpBig');    
+						 	$('#section4 .animation-13').addClass('delay-12s animated fadeInUpBig'); 
   						 }
 
 

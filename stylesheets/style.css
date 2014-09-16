@@ -323,7 +323,7 @@ img{
     #section5 .box-top{ position: absolute;   height: 80%;  top: 0; width: 100%;  z-index: 2000;  border-bottom: 15px solid #dea038}
     #section5 .box-bottom{  padding: 50px 0; position:absolute;   height: 20%;    bottom: 0;   width: 100%;   z-index: 2000 ; background-image: url(../images/background-beneficios.jpg); z-index: 1000 }
 
-.imagem-proponente{float: right; margin-top: 69px}
+.imagem-proponente{float: right; margin-top: 70px}
 .imagem-investidores{ margin-top: 70px}
 .imagem-custo-zero{ z-index: 1000; position: absolute; top: 235px; float: left; margin-left: -50px}
 

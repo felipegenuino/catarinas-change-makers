@@ -19,7 +19,7 @@
 }
 
 .loader-container{
-    border: 1px solid #555;
+   /* border: 1px solid #555;*/
     height: 80%;
     width: 50%;
     color: #fff;

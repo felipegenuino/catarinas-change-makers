@@ -6,7 +6,7 @@ $(document).ready(function() {
 				// sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
 				 menu: '#main-menu',
  				navigation: true,
-				paddingTop: '50px',
+				paddingTop: '0px',
 				css3: false,
  				 //autoScrolling: false,
  				 //fixedElements: '.imagem-voce-pode',

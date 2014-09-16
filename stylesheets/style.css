@@ -178,6 +178,9 @@
     header{ background: #fff;  width: 100%; display: inline-block;  position: fixed; z-index: 10000;  }
     header nav{float: right;  }
 
+
+    footer{ position: absolute; bottom: 0; background: red; width: 100%; left: 0; right: 0; background: #f25720; color: #eee; text-align: center; padding: 8px 0; font-family: 'Roboto Slab', serif;font-weight: 300; font-size: 14px;}
+    footer p{ margin: 0}
  /* brand */
     .box-brand{ position: relative; width: 170px;  height: 70px; }
     .before-brand{ position: absolute; background: #fff; width: 300px; height: 300px; display: inline-block; border-radius: 50%; top: -195px; left: -50px}
@@ -295,7 +298,7 @@ img{
     .info-section2 strong{color: #f9a518;}
 
 /* POR QUE INVESTIR */
-    #section3 .group-titile{  margin-top: 10%; color: #dfa33d ;  margin-bottom: 30px}
+    #section3 .group-titile{  margin-top: 15%; color: #dfa33d ;  margin-bottom: 30px}
     #section3 .group-titile .enfase-large{ font-size: 110px}
     #section3 ul{font-family: 'Roboto Slab', serif; list-style: none; padding-left:20px ; font-size: 20px; font-weight: 400}
     #section3 ul li{margin-bottom: 10px; line-height: 25px; border-bottom: 1px solid #ccc; padding: 5px 0;}
@@ -334,71 +337,34 @@ img{
     #section6{}
     #section6 .box-top{ position: absolute; padding-top: 0px ;    height: 15%;  top: 0; width: 100%;  z-index: 2000;  border-bottom: 15px solid #dea038}
     #section6 .box-bottom{  padding: 10px 0; position:absolute;   height: 55%;  bottom: 0;   width: 100%;   z-index: 2000 ;   z-index: 4000 }
-
-
-#section6 .fluid{ margin: 0; padding: 0}
-
-#section6 .box-beneficios, #section6 .box-funcionalidades{
-    font-family: 'Source Sans Pro', sans-serif; font-weight: 300; font-size: 36px; 
-color: #fff; padding: 90px 0 60px 0;
-text-align: center; 
-text-transform: uppercase;
-}
-
-
- #section6 .box-beneficios{   background: #18656d;  border-bottom: 10px solid #145a5f}
- #section6 .box-funcionalidades{  background: #0a2c2f;  border-bottom: 10px solid #09282a}
-
-.imagem-beneficios, .imagem-funcionalidades{ width: 150px ; position: absolute; top: 150px; left: 50%; right: 0; margin-left:-75px }
-.imagem-funcionalidades{}
-.imagem-beneficios{}
-
-
-.accordion-funcionalidades, .accordion-beneficios{
-    width: 80%;
-    margin-left: 10%;
-   
-    }
-
-    .panel .panel-heading{
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif; font-weight: 300; font-size: 22px;
-    border-radius: 0; 
-    padding: 15px 0;
-    border-top: 1px solid #15383b;
-   }
+    #section6 .fluid{ margin: 0; padding: 0}
+    #section6 .box-beneficios, #section6 .box-funcionalidades{     font-family: 'Source Sans Pro', sans-serif; font-weight: 300; font-size: 36px;  color: #fff; padding: 90px 0 60px 0; text-align: center;  text-transform: uppercase; }
+    #section6 .box-beneficios{   background: #18656d;  border-bottom: 10px solid #145a5f}
+    #section6 .box-funcionalidades{  background: #0a2c2f;  border-bottom: 10px solid #09282a}
+    #section6 .imagem-beneficios, #section6  .imagem-funcionalidades{ width: 150px ; position: absolute; top: 150px; left: 50%; right: 0; margin-left:-75px }
+    #section6 .imagem-funcionalidades{}
+    #section6 .imagem-beneficios{}
+    #section6 .accordion-funcionalidades, #section6 .accordion-beneficios{  width: 80%;     margin-left: 10%;   }
+    #section6 .panel .panel-heading{   color: #fff; text-transform: uppercase;  text-align: center; font-family: 'Source Sans Pro', sans-serif; font-weight: 300; font-size: 22px;  border-radius: 0;  padding: 15px 0; border-top: 1px solid #15383b; }
+    #section6 .accordion-funcionalidades .panel .panel-heading{ background: rgba(18, 48, 51, 0.9)}
+    #section6 .accordion-beneficios .panel .panel-heading{ background: #145e63}
+    #section6 .panel-group .panel+.panel { margin-top: 0; }
+    #section6 .accordion-beneficios .panel,  #section6 .accordion-funcionalidades  .panel{     background: none ;  border: none; }
+    #section6 .accordion-beneficios .panel-collapse, #section6 .accordion-funcionalidades  .panel-collapse{ background: #fff; border-right: 1px solid #ccc; border-left: 1px solid #ccc; font-family: 'Roboto Slab';  text-align: center; font-weight: 300; font-size: 18px;   }
+    #section6 .accordion-beneficios .collapse.in .panel-heading{ background: #104a4e}
+    #section6 .panel .panel-heading .panel-title{}
+    #section6 .panel .panel-heading .panel-title a{ display: block; width: 100%; }
+    #section6 .panel .panel-heading .panel-title a:hover{ text-decoration: none;  }
+    #section6 .accordion-funcionalidades, #section6  .accordion-beneficios{}
+    #section6 .accordion-funcionalidades{}
+    #section6 .accordion-beneficios{}
 
 
 
-   .accordion-funcionalidades .panel .panel-heading{ background: rgba(18, 48, 51, 0.9)}
-   .accordion-beneficios .panel .panel-heading{ background: #145e63}
+#section13 .row{  padding: 0 20px 0 0}
+#section13 h3{ font-family: 'Source Sans Pro', sans-serif; font-weight: 500; font-size: 30px; text-align: center; padding: 20px 0; text-transform: uppercase;}
+#section13 .box-apoio, #section13 .box-parceiros{  margin-bottom: 40px; }
 
-.panel-group .panel+.panel {
-margin-top: 0;
-}
-
-.accordion-beneficios .panel,  .accordion-funcionalidades  .panel{     background: none ;  border: none; }
-.accordion-beneficios .panel-collapse,  .accordion-funcionalidades  .panel-collapse{
-    background: #fff;
-    /*width: 90%;
-    margin-left: 5%;*/
-    border-right: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-    font-family: 'Roboto Slab';
-    text-align: center; font-weight: 300; font-size: 18px;  
- }
-
-.accordion-beneficios .collapse.in .panel-heading{ background: #104a4e}
-
-    .panel .panel-heading .panel-title{}
-    .panel .panel-heading .panel-title a{}
-
-.accordion-funcionalidades, .accordion-beneficios{}
-
-.accordion-funcionalidades{}
-.accordion-beneficios{}
 
 
 

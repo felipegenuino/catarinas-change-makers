@@ -60,6 +60,12 @@ $(document).ready(function() {
 						 	$('#section4 .animation-13').addClass('delay-12s animated fadeInUpBig'); 
   						 }
 
+						 if(index == '5'){ 
+						 	$('#section5 .animation-1').addClass('delay-1s animated fadeInLeft'); 
+						 	$('#section5 .animation-2').addClass('delay-2s animated fadeInRight');   
+						 	$('#section5 .animation-3').addClass('delay-3s animated zoomIn');   
+
+  						 }
 
 				},
 		        afterLoad: function(anchorLink, index){ /*quando carrega pagina alert("onLoad"); */  

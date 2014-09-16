@@ -321,11 +321,14 @@ img{
 /* CUSTO ZERO */
     #section5{}
     #section5 .box-top{ position: absolute;   height: 80%;  top: 0; width: 100%;  z-index: 2000;  border-bottom: 15px solid #dea038}
-    #section5 .box-bottom{  padding: 50px 0; position:absolute;   height: 20%;    bottom: 0;   width: 100%;   z-index: 2000 ; background-image: url(../images/background-beneficios.jpg); z-index: 1000 }
+    #section5 .box-bottom{  padding: 10px 0; position:absolute;   height: 20%;    bottom: 0;   width: 100%;   z-index: 2000 ; background: #263545; z-index: 1000 }
 
-.imagem-proponente{float: right; margin-top: 70px}
-.imagem-investidores{ margin-top: 70px}
-.imagem-custo-zero{ z-index: 1000; position: absolute; top: 235px; float: left; margin-left: -50px}
+    #section5 .box-bottom h4{ font-family: 'Roboto Slab'; width: 100%; display: block; text-align: center; font-weight: 600; font-size: 25px; color: #f25822}
+    #section5 .box-bottom p{ font-family: 'Roboto Slab'; font-weight: 300; text-align: center; font-size: 16px; line-height: 23px; color: #aaa}
+    #section5 .box-bottom strong{font-family: 'Roboto Slab';  display: block; font-size: 18px; font-weight: normal;color: #fff}
+    #section5 .imagem-proponente{float: right; margin-top: 74px}
+    #section5 .imagem-investidores{ margin-top: 70px}
+    #section5 .imagem-custo-zero{ z-index: 1000; position: absolute; top: 235px; float: left; margin-left: -50px}
 
  
 

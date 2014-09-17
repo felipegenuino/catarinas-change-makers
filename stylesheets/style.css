@@ -365,10 +365,15 @@ img{
 /*  SAIBA COMO FUNCIONA A PLATAFORMA */
     #section7{}
     #section7 .group-titile{color: #fff; border-color:  #fff; margin-bottom: 30px;}
-    #section7 .imagem-comofunciona{margin-top: 30px;}
-    #section7 .box-imagens{}
-
-
+    #section7 .imagem-comofunciona{position: absolute;top: 0; left: 0; opacity: 0.4;}
+    #section7 .box-imagens{ width: 1120; height: 230px; position: relative;}
+    #section7 .box-imagens .imagem1{position: absolute; top: 20px; left: 10px }
+    #section7 .box-imagens .imagem2{position: absolute; top: 145px; left: 255px  }
+    #section7 .box-imagens .imagem3{position: absolute; top: 50px; left: 305px  }
+    #section7 .box-imagens .imagem4{position: absolute; top: 145px; left: 555px }
+    #section7 .box-imagens .imagem5{position: absolute; top: 0px; right: 300px }
+    #section7 .box-imagens .imagem6{position: absolute; top: 145px; right: 245px }
+    #section7 .box-imagens .imagem7{position: absolute; top: 50px; right: 20px}
 
 
 /*  1 RECEBER */

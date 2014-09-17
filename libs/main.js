@@ -75,11 +75,17 @@ $(document).ready(function() {
 
   						 if(index == '7'){ 
 						 	$('#section7 .animation-1').addClass('delay-1s animated fadeInDown'); 
-						 	$('#section7 .animation-2').addClass('delay-2s animated fadeInUp');   
-  						 }
+						 	$('#section7 .animation-2').addClass('delay-2s animated fadeInLeft');   
+						 	$('#section7 .animation-3').addClass('delay-3s animated fadeInUp'); 
+						 	$('#section7 .animation-4').addClass('delay-3s animated fadeInLeft'); 
+						 	$('#section7 .animation-5').addClass('delay-4s animated fadeInUp'); 
+						 	$('#section7 .animation-6').addClass('delay-4s animated fadeInLeft'); 
+						 	$('#section7 .animation-7').addClass('delay-5s animated fadeInUp'); 
+						 	$('#section7 .animation-8').addClass('delay-5s animated fadeInLeft');
+   						 }
 
   						 if(index == '8'){ 
-						 	$('#section8 .animation-1').addClass('delay-1s animated fadeInDown'); 
+						 	$('#section8 .animation-1').addClass('animated fadeInLeftBig'); 
 						 	$('#section8 .animation-2').addClass('delay-2s animated fadeInUp');   
   						 }
 

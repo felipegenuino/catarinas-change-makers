@@ -11,7 +11,7 @@ $(document).ready(function() {
  				 //autoScrolling: false,
  				 //fixedElements: '.imagem-voce-pode',
  				navigationPosition: 'right',
-				navigationTooltips: ['Home', 'Você pode',  'Incentivos', 'Por que é difícil investir',  'Conheça Change Makers', 'Custo Zero', 'Benefícios e Funcionalidades',  'dot-como-funciona',  'dot-receber', 'dot-analisar',  'dot-financiar',  'dot-acompanhar',  'dot-contato',  'dot-apoio' ],
+				navigationTooltips: ['Home', 'Você pode',  'Braço estratégico', 'Por que é difícil investir?',  'Conheça Change Makers', 'Custo Zero', 'Benefícios e Funcionalidades',  'Saiba como funciona',  '1. Receber', '2. Analisar',  '3. Financiar',  '4. Acompanhar',  'Entre em contato',  'Empresas que apoiam' ],
 			
 				onLeave: function(index, nextIndex, direction){ 
  
@@ -64,8 +64,45 @@ $(document).ready(function() {
 						 	$('#section5 .animation-1').addClass('delay-1s animated fadeInLeft'); 
 						 	$('#section5 .animation-2').addClass('delay-2s animated fadeInRight');   
 						 	$('#section5 .animation-3').addClass('delay-3s animated zoomIn');   
-
   						 }
+
+  						  if(index == '6'){ 
+						 	$('#section6 .animation-1').addClass('delay-1s animated fadeInDown'); 
+						 	$('#section6 .animation-2').addClass('delay-2s animated fadeInUp');   
+						 	$('#section6 .animation-3').addClass('delay-4s animated fadeInDown');   
+						 	$('#section6 .animation-4').addClass('delay-5s animated fadeInUp');   
+  						 }
+
+  						 if(index == '7'){ 
+						 	$('#section7 .animation-1').addClass('delay-1s animated fadeInDown'); 
+						 	$('#section7 .animation-2').addClass('delay-2s animated fadeInUp');   
+  						 }
+
+  						 if(index == '8'){ 
+						 	$('#section8 .animation-1').addClass('delay-1s animated fadeInDown'); 
+						 	$('#section8 .animation-2').addClass('delay-2s animated fadeInUp');   
+  						 }
+
+  						 if(index == '9'){ 
+						 	$('#section9 .animation-1').addClass('delay-1s animated fadeInDown'); 
+						 	$('#section9 .animation-2').addClass('delay-2s animated fadeInUp');   
+  						 }
+
+  						 if(index == '10'){ 
+						 	$('#section10 .animation-1').addClass('delay-1s animated fadeInDown'); 
+						 	$('#section10 .animation-2').addClass('delay-2s animated fadeInUp');   
+  						 }
+
+  						 if(index == '11'){ 
+						 	$('#section11 .animation-1').addClass('delay-1s animated fadeInDown'); 
+						 	$('#section11 .animation-2').addClass('delay-2s animated fadeInUp');   
+  						 }
+
+  						 if(index == '13'){ 
+						 	$('#section13 .animation-1').addClass('delay-1s animated fadeInDown'); 
+						 	$('#section13 .animation-2').addClass('delay-3s animated fadeInUp');   
+  						 }
+
 
 				},
 		        afterLoad: function(anchorLink, index){ /*quando carrega pagina alert("onLoad"); */  

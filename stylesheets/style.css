@@ -261,7 +261,7 @@ img{
     #section10{ background-image: url(../images/background-financiar.jpg);      } 
     #section11{ background-image: url(../images/background-acompanhar.jpg);      } 
     #section12{  background-image: url(../images/background-contato.jpg);  }  
-    #section13{ background: #eee}
+    #section13{ background-image: url(../images/background-beneficios.jpg)}
 
 
 
@@ -323,20 +323,20 @@ img{
 
 /* CUSTO ZERO */
     #section5{}
-    #section5 .box-top{ position: absolute;   height: 80%;  top: 0; width: 100%;  z-index: 2000;  border-bottom: 15px solid #dea038}
-    #section5 .box-bottom{  padding: 10px 0; position:absolute;   height: 20%;    bottom: 0;   width: 100%;   z-index: 2000 ; background: #263545; z-index: 1000 }
+    #section5 .box-top{ position: absolute;   height: 75%;  top: 0; width: 100%;  z-index: 2000;  border-bottom: 15px solid #dea038}
+    #section5 .box-bottom{  padding: 10px 0; position:absolute;   height: 25%;    bottom: 0;   width: 100%;   z-index: 2000 ; background: #263545; z-index: 1000 }
 
     #section5 .box-bottom h4{ font-family: 'Roboto Slab'; width: 100%; display: block; text-align: center; font-weight: 600; font-size: 25px; color: #f25822}
     #section5 .box-bottom p{ font-family: 'Roboto Slab'; font-weight: 300; text-align: center; font-size: 16px; line-height: 23px; color: #aaa}
     #section5 .box-bottom strong{font-family: 'Roboto Slab';  display: block; font-size: 18px; font-weight: normal;color: #fff}
-    #section5 .imagem-proponente{float: right; margin-top: 74px}
-    #section5 .imagem-investidores{ margin-top: 70px}
+    #section5 .imagem-proponente{float: right; margin-top: 64px}
+    #section5 .imagem-investidores{ margin-top: 60px}
     #section5 .imagem-custo-zero{ z-index: 1000; position: absolute; top: 235px; float: left; margin-left: -50px}
 
  
 /* BENEFICIOS E FUNCIONALIDADES */
     #section6{}
-    #section6 .box-top{ position: absolute; padding-top: 0px ;    height: 15%;  top: 0; width: 100%;  z-index: 2000;  border-bottom: 15px solid #dea038}
+    #section6 .box-top{ position: absolute; padding-top: 0px ;    height: 15%;  top: 0; width: 100%;  z-index: 2000;  }
     #section6 .box-bottom{  padding: 10px 0; position:absolute;   height: 55%;  bottom: 0;   width: 100%;   z-index: 2000 ;   z-index: 4000 }
     #section6 .fluid{ margin: 0; padding: 0}
     #section6 .box-beneficios, #section6 .box-funcionalidades{     font-family: 'Source Sans Pro', sans-serif; font-weight: 300; font-size: 36px;  color: #fff; padding: 90px 0 60px 0; text-align: center;  text-transform: uppercase; }
@@ -402,6 +402,14 @@ img{
     #section11 .group-titile{  color: #fff;  border-color: #fff;   margin-bottom: 0px; margin-top: 50px; display: block;}
     #section11 .group-titile strong{font-family: 'Roboto Slab'; color: #0a2c2f; letter-spacing: -10px}
     #section11 .enfase-large{font-weight: 600; letter-spacing: 0px}
+
+
+
+/*  CONTATO */
+    #section12{padding-top: 10px !important }
+    #section12 .group-titile{float: right;  color: #3b3b3b; text-align: right;  border-right: 5px solid #3b3b3b; border-left: none; padding-right: 40px; margin-bottom: 10px; margin-top: 50px; display: block;}
+    #section12 .group-titile .enfase-medium{ font-size: 40px}
+    #section12 .box-contato{}
 
 
 /*  APOIO */

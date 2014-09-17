@@ -30,8 +30,8 @@ $(document).ready(function() {
 						 }
 
 						 if(index == '2'){ 
-						 	$('#section2 .animation-1').addClass('delay-1s animated fadeInDownBig'); 
-						 	$('#section2 .animation-2').addClass('delay-3s animated fadeInUpBig');   
+						 	$('#section2 .animation-1').addClass('animated fadeInDownBig'); 
+						 	$('#section2 .animation-2').addClass('delay-1s animated fadeInUpBig');   
   						 }
 
   						 if(index == '3'){ 
@@ -49,28 +49,28 @@ $(document).ready(function() {
   						 	$('#section4 .animation-2') .addClass('delay-1s  animated fadeInLeftBig'); 
  						 	$('#section4 .animation-3') .addClass('delay-2s  animated fadeInLeftBig'); 
 						 	$('#section4 .animation-4') .addClass('delay-3s  animated fadeInLeftBig');  
-						 	$('#section4 .animation-5') .addClass('delay-4s  animated fadeInUpBig');   
-						 	$('#section4 .animation-6') .addClass('delay-5s  animated fadeInUpBig');    
-						 	$('#section4 .animation-7') .addClass('delay-6s  animated fadeInUpBig'); 
-						 	$('#section4 .animation-8') .addClass('delay-7s  animated fadeInUpBig');   
-						 	$('#section4 .animation-9') .addClass('delay-8s  animated fadeInUpBig');    
-						 	$('#section4 .animation-10').addClass('delay-9s  animated fadeInUpBig'); 
-						 	$('#section4 .animation-11').addClass('delay-10s animated fadeInUpBig');   
-						 	$('#section4 .animation-12').addClass('delay-11s animated fadeInUpBig');    
-						 	$('#section4 .animation-13').addClass('delay-12s animated fadeInUpBig'); 
+						 	$('#section4 .animation-5') .addClass('delay-4s  animated fadeInUp');   
+						 	$('#section4 .animation-6') .addClass('delay-4s  animated fadeInUpBig');    
+						 	$('#section4 .animation-7') .addClass('delay-4s  animated fadeInUpBig'); 
+						 	$('#section4 .animation-8') .addClass('delay-5s  animated fadeInUp');   
+						 	$('#section4 .animation-9') .addClass('delay-5s  animated fadeInUpBig ');    
+						 	$('#section4 .animation-10').addClass('delay-5s  animated fadeInUpBig '); 
+						 	$('#section4 .animation-11').addClass('delay-6s animated fadeInUp');   
+						 	$('#section4 .animation-12').addClass('delay-6s animated fadeInUpBig ');    
+						 	$('#section4 .animation-13').addClass('delay-6s animated fadeInUpBig '); 
   						 }
 
 						 if(index == '5'){ 
-						 	$('#section5 .animation-1').addClass('delay-1s animated fadeInLeft'); 
-						 	$('#section5 .animation-2').addClass('delay-2s animated fadeInRight');   
+						 	$('#section5 .animation-1').addClass('animated fadeInLeft'); 
+						 	$('#section5 .animation-2').addClass('delay-1s animated fadeInRight');   
 						 	$('#section5 .animation-3').addClass('delay-3s animated zoomIn');   
   						 }
 
   						  if(index == '6'){ 
-						 	$('#section6 .animation-1').addClass('delay-1s animated fadeInDown'); 
-						 	$('#section6 .animation-2').addClass('delay-2s animated fadeInUp');   
-						 	$('#section6 .animation-3').addClass('delay-4s animated fadeInDown');   
-						 	$('#section6 .animation-4').addClass('delay-5s animated fadeInUp');   
+						 	$('#section6 .animation-1').addClass(' animated fadeInDown'); 
+						 	$('#section6 .animation-2').addClass('delay-1s animated fadeInUp');   
+						 	$('#section6 .animation-3').addClass('delay-3s animated fadeInDown');   
+						 	$('#section6 .animation-4').addClass('delay-4s animated fadeInUp');   
   						 }
 
   						 if(index == '7'){ 
@@ -86,22 +86,38 @@ $(document).ready(function() {
 
   						 if(index == '8'){ 
 						 	$('#section8 .animation-1').addClass('animated fadeInRightBig'); 
-						 	$('#section8 .animation-2').addClass('delay-1s animated fadeInUp');   
+						 	$('#section8 .animation-2').addClass('delay-1s animated zoomIn');
+						 	$('#section8 .animation-3').addClass('delay-2s animated fadeInRightBig');
+						 	$('#section8 .animation-4').addClass('delay-3s animated fadeInUpBig');
+						 	$('#section8 .animation-5').addClass('delay-4s animated fadeInLeftBig');
+						 	$('#section8 .animation-6').addClass('delay-5s animated fadeInUpBig');   
   						 }
 
   						 if(index == '9'){ 
 						 	$('#section9 .animation-1').addClass('animated fadeInLeftBig'); 
-						 	$('#section9 .animation-2').addClass('delay-1s animated fadeInUp');   
+						 	$('#section9 .animation-2').addClass('delay-1s animated zoomIn');
+						 	$('#section9 .animation-3').addClass('delay-2s animated fadeInRightBig');
+						 	$('#section9 .animation-4').addClass('delay-3s animated fadeInUpBig');
+						 	$('#section9 .animation-5').addClass('delay-4s animated fadeInLeftBig');
+						 	$('#section9 .animation-6').addClass('delay-5s animated fadeInUpBig');     
   						 }
 
   						 if(index == '10'){ 
-						 	$('#section10 .animation-1').addClass('delay-1s animated fadeInDown'); 
-						 	$('#section10 .animation-2').addClass('delay-2s animated fadeInUp');   
+						 	$('#section10 .animation-1').addClass('animated fadeInDown'); 
+						 	$('#section10 .animation-2').addClass('delay-1s animated zoomIn');
+						 	$('#section10 .animation-3').addClass('delay-2s animated fadeInRightBig');
+						 	$('#section10 .animation-4').addClass('delay-3s animated fadeInUpBig');
+						 	$('#section10 .animation-5').addClass('delay-4s animated fadeInLeftBig');
+						 	$('#section10 .animation-6').addClass('delay-5s animated fadeInUpBig');   
   						 }
 
   						 if(index == '11'){ 
-						 	$('#section11 .animation-1').addClass('delay-1s animated fadeInDown'); 
-						 	$('#section11 .animation-2').addClass('delay-2s animated fadeInUp');   
+						 	$('#section11 .animation-1').addClass('animated fadeInRightBig'); 
+						 	$('#section11 .animation-2').addClass('delay-1s animated zoomIn');
+						 	$('#section11 .animation-3').addClass('delay-2s animated fadeInRightBig');
+						 	$('#section11 .animation-4').addClass('delay-3s animated fadeInUpBig');
+						 	$('#section11 .animation-5').addClass('delay-4s animated fadeInLeftBig');
+						 	$('#section11 .animation-6').addClass('delay-5s animated fadeInUpBig');    
   						 }
 
   						 if(index == '13'){ 

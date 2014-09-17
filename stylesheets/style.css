@@ -26,7 +26,17 @@
 
 
 
+ #section12 .box, 
+ #section12 .box-contato-social a,
+ .transition {
+  transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+}
 
+ #section12 .box-contato-social a{}
 
 
 
@@ -448,7 +458,41 @@ img{
     #section12{padding-top: 10px !important }
     #section12 .group-titile{float: right;  color: #3b3b3b; text-align: right;  border-right: 5px solid #3b3b3b; border-left: none; padding-right: 40px; margin-bottom: 10px; margin-top: 50px; display: block;}
     #section12 .group-titile .enfase-medium{ font-size: 40px}
+    #section12 .box-apoio{}
+    #section12 .box-apoio p{ font-family: 'Roboto Slab'; font-size: 36px; font-weight: 300; line-height: 45px; margin-bottom: 50px}
+    #section12 .box-apoio .logotipo{  margin-bottom: 50px}
+    #section12 .box-apoio .contato{ font-family: 'Roboto Slab'; font-size: 22px; font-weight: 700; list-style: none; padding-left: 0}
+    #section12 .box-apoio .contato li{ color: #f25720;  display: inline-block; vertical-align: middle; width: 100%; margin-bottom: 20px;}
+    #section12 .box-apoio .contato li a{ color: #f25720; padding-top: 10px; display: block;}
+    #section12 .box-apoio .contato .telefone{}
+    #section12 .box-apoio .contato .telefone strong{ font-size: 40px; }
+
+    #section12 .box-apoio .contato .telefone .icon{ margin-right: 10px; background: url(../images/contato-telefone.png); display: inline-block; float: left ;width: 51px; height: 51px}
+    #section12 .box-apoio .contato .email{}
+    #section12 .box-apoio .contato .email .icon{ margin-right: 10px;  background: url(../images/contato-mail.png); display: inline-block; float: left ;width: 51px; height: 51px}
     #section12 .box-contato{}
+    
+    #section12 .box-contato-social{  margin-top: 50px;}
+    #section12 .box-contato-social .box{ text-align: center; /*border: 1px solid #ccc; */ width: 50%; padding: 40px 0; position: relative;}
+    #section12 .box-contato-social .box:hover{background: rgba(255,255, 255, 0.5); } 
+    #section12 .box-contato-social .box:hover img,
+    #section12 .box-contato-social .box:hover a{    
+         transform:translateY(-10px); 
+         -ms-transform:translateY(-10px); 
+         -moz-transform:translateY(-10px); 
+         -webkit-transform:translateY(-10px); 
+    } 
+
+    #section12 .box-contato-social .box img{  display: inline-block; margin-bottom: 20px;  }
+    #section12 .box-contato-social .box a{display: inline-block; width: 100%; font-family: 'Roboto Slab'; font-size: 22px; font-weight: 300;  color: #3b3b3b}
+    #section12 .box-contato-social .box a:hover{ }
+    #section12 .facebook{float: left;}
+    #section12 .twitter{float: left;}
+    #section12 .linkedin{float: right;}
+    #section12 .gplus{float: right;}
+    #section12 .facebook:before{content: ""; position: absolute; width: 80%; height: 2px; background: #838383; bottom: -2px; left: 10%;}
+    #section12 .twitter:before{content: ""; position: absolute; width: 80%; height: 2px; background: #838383; bottom: -2px; left: 10%;}
+    #section12 .linkedin:before{content: ""; position: absolute; height: 160%; width: 2px; background: #838383; right: -2px; top: -80%;}
 
 
 /*  APOIO */

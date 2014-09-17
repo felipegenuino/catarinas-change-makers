@@ -11,7 +11,7 @@ $(document).ready(function() {
  				 //autoScrolling: false,
  				 //fixedElements: '.imagem-voce-pode',
  				navigationPosition: 'right',
-				navigationTooltips: ['Home', 'Você pode',  'Incentivos', 'Por que é difícil investir',  'Conheça', 'Custo Zero', 'Benefícios e Funcionalidades',  'dot-como-funciona',  'dot-receber', 'dot-analisar',  'dot-financiar',  'dot-acompanhar',  'dot-contato',  'dot-apoio' ],
+				navigationTooltips: ['Home', 'Você pode',  'Incentivos', 'Por que é difícil investir',  'Conheça Change Makers', 'Custo Zero', 'Benefícios e Funcionalidades',  'dot-como-funciona',  'dot-receber', 'dot-analisar',  'dot-financiar',  'dot-acompanhar',  'dot-contato',  'dot-apoio' ],
 			
 				onLeave: function(index, nextIndex, direction){ 
  

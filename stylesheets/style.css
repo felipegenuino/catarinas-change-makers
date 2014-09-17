@@ -2,7 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,600italic);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
 
-
+/* Para otimizar imagens usar o Smushit   www.smushit.com/ 
+     ------------------------------------------------------------ */
 
 /* preloader */
     .loader{      background: #333;     position: fixed;     width: 100%;     height: 100%;     top: 0;     bottom: 0;     left: 0;     right: 0;     z-index: 20000;      text-align: center;}
@@ -234,9 +235,8 @@ img{
         background-size: cover;
     }
 
-    /* Defining each section background and styles
-    http://www.picresize.com/
-    * --------------------------------------- */
+    /* Para otimizar imagens usar o Smushit   www.smushit.com/ 
+     ------------------------------------------------------------ */
     #section0{ background-image:url(../images/background-destino.jpg);  border-bottom: 15px solid #f25822}
     #section1{ background-image: url(../images/background-vocepode.jpg);  }
     #section2{ background-image: url(../images/background-custozero.jpg); } 
@@ -255,12 +255,13 @@ img{
              } 
     #section5{ background-image: url(../images/background-custozero.jpg); } 
     #section6{ background-image: url(../images/background-beneficios.jpg) ; background-position: bottom center; } 
-    #section7{ background-image: url(../images/background-financiar.jpg);      } 
-    #section8{ background-image: url(../images/background-analisar.jpg);      } 
-    #section9{ background-image: url(../images/background-custozero.jpg);      } 
-    #section10{ background-image: url(../images/background-acompanhar.jpg);      } 
-    #section11{ background-image: url(../images/background-contato.jpg);      } 
-    #section12{ background-image: url();      }  
+    #section7{ background-image: url(../images/background-comofunciona.jpg);      } 
+    #section8{ background-image: url(../images/background-receber.jpg);      } 
+    #section9{ background-image: url(../images/background-analisar.jpg);      } 
+    #section10{ background-image: url(../images/background-financiar.jpg);      } 
+    #section11{ background-image: url(../images/background-acompanhar.jpg);      } 
+    #section12{  background-image: url(../images/background-contato.jpg);  }  
+    #section13{ background: #eee}
 
 
 
@@ -278,7 +279,7 @@ img{
     
 
 /* HOME */
-    #section0 .group-titile{  color: #fff; margin-top: 15%;  }
+    #section0 .group-titile{  color: #fff; margin-top: 15%; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); }
 
 /* VOCE PODE */
     .info-section1 {width: 100%; position: relative; text-align:right; display: inline-block; color: #fff; margin-top: 10%;   padding-right: 20px; border-right: 7px solid #3c3c3c; padding-bottom: 10px; float: right;}  
@@ -361,9 +362,53 @@ img{
 
 
 
-#section13 .row{  padding: 0 20px 0 0}
-#section13 h3{ font-family: 'Source Sans Pro', sans-serif; font-weight: 500; font-size: 30px; text-align: center; padding: 20px 0; text-transform: uppercase;}
-#section13 .box-apoio, #section13 .box-parceiros{  margin-bottom: 40px; }
+/*  SAIBA COMO FUNCIONA A PLATAFORMA */
+    #section7{}
+    #section7 .group-titile{color: #fff; border-color:  #fff; margin-bottom: 30px;}
+    #section7 .imagem-comofunciona{margin-top: 30px;}
+    #section7 .box-imagens{}
+
+
+
+
+/*  1 RECEBER */
+    #section8{ padding-top: 50px !important}
+    #section8 .group-titile{float: right;  color: #fff;  border-right: 5px solid #fff; border-left: none; padding-right: 40px; margin-bottom: 40px;}
+    #section8 .group-titile strong{ font-family: 'Roboto Slab'; color: #f9a518; letter-spacing: -10px}
+    #section8 .enfase-large{font-weight: 600; letter-spacing: 0px}
+    #section8 img { }
+
+
+
+
+/*  2 ANALISAR */
+    #section9{padding-top: 20px !important }
+    #section9 .group-titile{  color: #fff;  border-color: #fff;   margin-bottom: 0px; margin-top: 50px; display: block;}
+    #section9 .group-titile strong{font-family: 'Roboto Slab'; color: #0a2c2f; letter-spacing: -5px}
+    #section9 .enfase-large{font-weight: 600; letter-spacing: 0px}
+
+
+
+/*  3 FINANCIAR */
+    #section10{padding-top: 30px !important }
+    #section10 .group-titile{float: right;  color: #fff;  border-right: 5px solid #fff; border-left: none; padding-right: 40px; margin-bottom: 40px; margin-top: 50px; display: block;}
+    #section10 .group-titile strong{font-family: 'Roboto Slab'; color: #f9a518; letter-spacing: -5px}
+    #section10 .enfase-large{font-weight: 600; letter-spacing: 0px}
+
+
+
+/*  4 ACOMPANHAR */
+    #section11{padding-top: 30px !important }
+    #section11 .group-titile{  color: #fff;  border-color: #fff;   margin-bottom: 0px; margin-top: 50px; display: block;}
+    #section11 .group-titile strong{font-family: 'Roboto Slab'; color: #0a2c2f; letter-spacing: -10px}
+    #section11 .enfase-large{font-weight: 600; letter-spacing: 0px}
+
+
+/*  APOIO */
+    #section13 {}
+    #section13 .row{  padding: 0 20px 0 0}
+    #section13 h3{ font-family: 'Source Sans Pro', sans-serif; font-weight: 500; font-size: 30px; text-align: center; padding: 20px 0; text-transform: uppercase;}
+    #section13 .box-apoio, #section13 .box-parceiros{  margin-bottom: 40px; }
 
 
 

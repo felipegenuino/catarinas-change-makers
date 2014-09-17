@@ -141,29 +141,51 @@ html, body {
 }
 #fp-nav li .active span,
 .fp-slidesNav .active span {
-    background: #333;
+    background: #fff;
 }
 #fp-nav span,
 .fp-slidesNav span {
-    top: 2px;
+    top: 0px;
     left: 2px;
-    width: 8px;
-    height: 8px;
-    border: 1px solid #000;
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
     background: rgba(0, 0, 0, 0);
     border-radius: 50%;
     position: absolute;
     z-index: 1;
+    box-shadow: 1px 1px 5px #777;
 }
 .fp-tooltip {
     position: absolute;
-    top: -2px;
-    color: #fff;
+    top: -4px;
+    color: #555;
     font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
+    font-family: 'Roboto Slab', arial, helvetica, sans-serif;
     white-space: nowrap;
     max-width: 220px;
+    background: #fff;
+    padding: 0px 10px;
+    right: 25px !important;
+    border-left: 5px solid #fba81b;
+ }
+
+.fp-tooltip:before{ 
+    content: "";
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+    position: absolute;
+    right: -10px ;
 }
+
+ 
+
+
+
+
 .fp-tooltip.right {
     right: 20px;
 }

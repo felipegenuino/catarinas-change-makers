@@ -103,7 +103,7 @@ $(document).ready(function() {
   						 }
 
   						 if(index == '10'){ 
-						 	$('#section10 .animation-1').addClass('animated fadeInDown'); 
+						 	$('#section10 .animation-1').addClass('animated fadeInLeftBig'); 
 						 	$('#section10 .animation-2').addClass('delay-1s animated zoomIn');
 						 	$('#section10 .animation-3').addClass('delay-2s animated fadeInRightBig');
 						 	$('#section10 .animation-4').addClass('delay-3s animated fadeInUpBig');
@@ -119,6 +119,16 @@ $(document).ready(function() {
 						 	$('#section11 .animation-5').addClass('delay-4s animated fadeInLeftBig');
 						 	$('#section11 .animation-6').addClass('delay-5s animated fadeInUpBig');    
   						 }
+
+  						 if(index == '12'){ 
+						 	$('#section12 .animation-1').addClass('animated fadeInUpBig'); 
+						 	$('#section12 .animation-2').addClass('delay-1s animated fadeInLeftBig');
+						 	$('#section12 .animation-3').addClass('delay-2s animated fadeInUp');
+							$('#section12 .animation-4').addClass('delay-2s animated fadeInUp');
+						 	$('#section12 .animation-5').addClass('delay-2s animated fadeInUpBig');
+						 	$('#section12 .animation-6').addClass('delay-2s animated fadeInUpBig');
+  						 }
+
 
   						 if(index == '13'){ 
 						 	$('#section13 .animation-1').addClass('animated fadeInDownBig'); 

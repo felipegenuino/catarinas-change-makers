@@ -36,8 +36,7 @@
   -o-transition: all 0.5s ease 0s;
 }
 
- #section12 .box-contato-social a{}
-
+ 
 
 
 
@@ -473,7 +472,7 @@ img{
     #section12 .box-contato{}
     
     #section12 .box-contato-social{  margin-top: 50px;}
-    #section12 .box-contato-social .box{ text-align: center; /*border: 1px solid #ccc; */ width: 50%; padding: 40px 0; position: relative;}
+    #section12 .box-contato-social .box{ text-align: center; /*border: 1px solid #ccc;  */width: 50%; padding: 40px 0; position: relative;}
     #section12 .box-contato-social .box:hover{background: rgba(255,255, 255, 0.5); } 
     #section12 .box-contato-social .box:hover img,
     #section12 .box-contato-social .box:hover a{    

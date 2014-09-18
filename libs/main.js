@@ -30,7 +30,7 @@ $(document).ready(function() {
 						 }
 
 						 if(index == '2'){ 
-						 	$('#section2 .animation-1').addClass('animated fadeInDownBig'); 
+						 	$('#section2 .animation-1').addClass('animated fadeInDown'); 
 						 	$('#section2 .animation-2').addClass('delay-1s animated fadeInUpBig');   
   						 }
 
@@ -38,10 +38,10 @@ $(document).ready(function() {
   						 	$('#section3 .animation-1').addClass('animated fadeInRightBig'); 
  						 	$('#section3 .animation-2').addClass('delay-1s animated fadeInDownBig'); 
 						 	$('#section3 .animation-3').addClass('delay-3s animated fadeInLeftBig');  
-						 	$('#section3 .animation-4').addClass('delay-4s animated fadeInLeftBig');   
-						 	$('#section3 .animation-5').addClass('delay-5s animated fadeInLeftBig');   
-						 	$('#section3 .animation-6').addClass('delay-6s animated fadeInLeftBig');    
-						 	$('#section3 .animation-7').addClass('delay-7s animated fadeInLeftBig'); 
+						 	$('#section3 .animation-4').addClass('delay-5s animated fadeInLeftBig');   
+						 	$('#section3 .animation-5').addClass('delay-7s animated fadeInLeftBig');   
+						 	$('#section3 .animation-6').addClass('delay-9s animated fadeInLeftBig');    
+						 	$('#section3 .animation-7').addClass('delay-11s animated fadeInLeftBig'); 
   						 }
 
   						 if(index == '4'){ 
@@ -88,9 +88,9 @@ $(document).ready(function() {
 						 	$('#section8 .animation-1').addClass('animated fadeInRightBig'); 
 						 	$('#section8 .animation-2').addClass('delay-1s animated zoomIn');
 						 	$('#section8 .animation-3').addClass('delay-2s animated fadeInRightBig');
-						 	$('#section8 .animation-4').addClass('delay-3s animated fadeInUpBig');
-						 	$('#section8 .animation-5').addClass('delay-4s animated fadeInLeftBig');
-						 	$('#section8 .animation-6').addClass('delay-5s animated fadeInUpBig');   
+						 	$('#section8 .animation-4').addClass('delay-4s animated fadeInUpBig');
+						 	$('#section8 .animation-5').addClass('delay-6s animated fadeInLeftBig');
+						 	$('#section8 .animation-6').addClass('delay-8s animated fadeInUpBig');   
   						 }
 
   						 if(index == '9'){ 

@@ -255,9 +255,9 @@ img{
     /* Para otimizar imagens usar o Smushit   www.smushit.com/ 
      ------------------------------------------------------------ */
     #section0{ background-image:url(../images/background-destino.jpg);  border-bottom: 15px solid #f25822}
-    #section1{ background-image: url(../images/background-vocepode.jpg);  }
-    #section2{ background-image: url(../images/background-custozero.jpg); } 
-    #section3{ background-image: url(../images/background-investir.jpg); } 
+    #section1{ background-image: url(../images/background-vocepode.jpg); background-position: center center; }
+    #section2{ background-image: url(../images/background-custozero.jpg); background-position: center center; } 
+    #section3{ background-image: url(../images/background-investir.jpg); background-position: center center; } 
     #section4{ 
                 background: #02386a; /* Old browsers */
                 /* IE9 SVG, needs conditional override of 'filter' to 'none' */

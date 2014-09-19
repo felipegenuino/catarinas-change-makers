@@ -346,9 +346,9 @@ img{
     #section5 .box-bottom h4{ font-family: 'Roboto Slab'; width: 100%; display: block; text-align: center; font-weight: 600; font-size: 25px; color: #f25822}
     #section5 .box-bottom p{ font-family: 'Roboto Slab'; font-weight: 300; text-align: center; font-size: 16px; line-height: 23px; color: #aaa}
     #section5 .box-bottom strong{font-family: 'Roboto Slab';  display: block; font-size: 18px; font-weight: normal;color: #fff}
-    #section5 .imagem-proponente{float: right; margin-top: 64px}
-    #section5 .imagem-investidores{ margin-top: 60px}
-    #section5 .imagem-custo-zero{ z-index: 1000; position: absolute; top: 235px; float: left; margin-left: -50px}
+    #section5 .imagem-proponente{float: right; margin-top: 24px}
+    #section5 .imagem-investidores{ margin-top: 20px}
+    #section5 .imagem-custo-zero{ z-index: 1000; position: absolute; top: 185px; float: left; margin-left: -50px}
 
  
 /* BENEFICIOS E FUNCIONALIDADES */

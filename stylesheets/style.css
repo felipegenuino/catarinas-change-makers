@@ -217,11 +217,12 @@
  /* social menu */
     .social-menu{   padding-top: 0px; }
     .social-menu li{ display: inline-block; float: left; }
-    .social-menu li a{  margin-top: 12px;  text-decoration: none; display: block; width: 30px; height: 30px; overflow: hidden;   text-indent: -999999; font-size: 0}
+    .social-menu li a{  margin-top: 12px; margin-right: 10px ; text-decoration: none; display: block; width: 30px; height: 30px; overflow: hidden;   text-indent: -999999; font-size: 0}
     .social-menu li a:hover{ opacity: 0.6; }
     .icon-facebook{ background: red;  background: url(../images/sprite.png); background-position: -5px 0; }
     .icon-linkedin{ background: blue;  background: url(../images/sprite.png); background-position: -55px 0; }
     .icon-google-plus{ background: green;  background: url(../images/sprite.png); background-position: -103px 0; }
+    .icon-twitter{ background: green;  background: url(../images/sprite.png); background-position: -145px 0; }
 
 
 .image-resposive-y{ max-height: 100%}
@@ -336,7 +337,7 @@ img{
     #section4 .box-bottom img{ position: absolute;top: -140px; left: 30%; text-align: center; width: 150px}
     #section4 .box-bottom h4{ font-family: 'Roboto Slab'; width: 100%; display: block; text-align: center; font-weight: 600; font-size: 25px; color: #f25822}
     #section4 .box-bottom p{ font-family: 'Roboto Slab'; text-align: center; font-size: 18px; line-height: 23px}
-
+ 
 
 /* CUSTO ZERO */
     #section5{}
@@ -405,8 +406,8 @@ img{
     #section8 .box-imagens .imagem1{position: absolute; top: 75px; left: 260px}
     #section8 .box-imagens .imagem2{position: absolute; top: 30px; left: 560px}
     #section8 .box-imagens .imagem3{position: absolute; top: 240px; left: 560px}
-    #section8 .box-imagens .imagem4{position: absolute; top: 50px; left: 120px}
-    #section8 .box-imagens .imagem5{position: absolute; top: 200px; left: 10px}
+    #section8 .box-imagens .imagem4{position: absolute; top: 50px; left: 50px}
+    #section8 .box-imagens .imagem5{position: absolute; top: 200px; left: -30px}
     
 
 
@@ -420,10 +421,10 @@ img{
     #section9 .imagem-base{position: absolute;top: 0; left: 0; opacity: 0.4;}
     #section9 .box-imagens{ width: 1040px; margin: 0 auto; height: 450px; position: relative;  }
     #section9 .box-imagens .imagem1{position: absolute; top: 75px; left: 260px}
-    #section9 .box-imagens .imagem2{position: absolute; top: 10px; left: 550px}
-    #section9 .box-imagens .imagem3{position: absolute; top: 30px; left: 70px}
-    #section9 .box-imagens .imagem4{position: absolute; top: 190px; left: 10px}
-    #section9 .box-imagens .imagem5{position: absolute; top: 230px; left: 550px}
+    #section9 .box-imagens .imagem2{position: absolute; top: 10px; left: 570px}
+    #section9 .box-imagens .imagem3{position: absolute; top: 30px; left: 80px}
+    #section9 .box-imagens .imagem4{position: absolute; top: 190px; left: -30px}
+    #section9 .box-imagens .imagem5{position: absolute; top: 230px; left: 580px}
 
 
 
@@ -454,8 +455,8 @@ img{
     #section11 .imagem-base{position: absolute;top: 0; left: 0; opacity: 0.4;}    
     #section11 .box-imagens{ width: 1040px; margin: 0 auto; height: 450px; position: relative;  }
     #section11 .box-imagens .imagem1{position: absolute; top: 75px; left: 300px}
-    #section11 .box-imagens .imagem2{position: absolute; top: 30px; left: 10px}
-    #section11 .box-imagens .imagem3{position: absolute; top: 200px; left: 60px}
+    #section11 .box-imagens .imagem2{position: absolute; top: 30px; left: 160px}
+    #section11 .box-imagens .imagem3{position: absolute; top: 200px; left: 0px}
     #section11 .box-imagens .imagem4{position: absolute; top: 20px; left: 605px}
     #section11 .box-imagens .imagem5{position: absolute; top: 250px; left: 610px}
 
@@ -465,9 +466,10 @@ img{
     #section12{padding-top: 10px !important }
     #section12 .group-titile{float: right;  color: #3b3b3b; text-align: right;  border-right: 5px solid #3b3b3b; border-left: none; padding-right: 40px; margin-bottom: 10px; margin-top: 50px; display: block;}
     #section12 .group-titile .enfase-medium{ font-size: 40px}
-    #section12 .box-apoio{}
-    #section12 .box-apoio p{ font-family: 'Roboto Slab'; font-size: 36px; font-weight: 300; line-height: 45px; margin-bottom: 50px}
-    #section12 .box-apoio .logotipo{  margin-bottom: 50px}
+    #section12 .box-apoio{margin-top: 100px;}
+    #section12 .box-apoio p{ font-family: 'Roboto Slab'; font-size: 24px; font-weight: 300; }
+    #section12 .box-apoio .assinatura{font-family: 'Source Sans Pro'; font-size: 18px; color: #333; border-left: 3px solid #888; padding-left: 20px}
+    #section12 .box-apoio .logotipo{  margin-bottom: 50px; margin-top: 20px;}
     #section12 .box-apoio .contato{ font-family: 'Roboto Slab'; font-size: 22px; font-weight: 700; list-style: none; padding-left: 0}
     #section12 .box-apoio .contato li{ color: #f25720;  display: inline-block; vertical-align: middle; width: 100%; margin-bottom: 20px;}
     #section12 .box-apoio .contato li a{ color: #f25720; padding-top: 10px; display: block;}
@@ -480,7 +482,7 @@ img{
     #section12 .box-contato{}
     
     #section12 .box-contato-social{  margin-top: 50px;}
-    #section12 .box-contato-social .box{ text-align: center; /*border: 1px solid #ccc;  */width: 50%; padding: 40px 0; position: relative;}
+    #section12 .box-contato-social .box{ text-align: center; /*border: 1px solid #ccc;  */width: 50%; padding: 40px 0; position: relative; height: 200px;}
     #section12 .box-contato-social .box:hover{background: rgba(255,255, 255, 0.5); } 
     #section12 .box-contato-social .box:hover img,
     #section12 .box-contato-social .box:hover a{    
@@ -489,6 +491,8 @@ img{
          -moz-transform:translateY(-10px); 
          -webkit-transform:translateY(-10px); 
     } 
+   #section12 .box-contato-social a span{ display: block; width: 100%; float: left;  font-size: 18px}
+
 
     #section12 .box-contato-social .box img{  display: inline-block; margin-bottom: 20px;  }
     #section12 .box-contato-social .box a{display: inline-block; width: 100%; font-family: 'Roboto Slab'; font-size: 22px; font-weight: 300;  color: #3b3b3b}

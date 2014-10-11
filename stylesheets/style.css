@@ -524,7 +524,7 @@ img{
 
 
 /* Small screens */
-@media only screen {.info-section2 .imagem-incentivos{ height: 500px; }  .monitor-preview{height: 460px; margin-left: 20px }  } /* Define mobile styles */
+@media only screen {.info-section2 .imagem-incentivos{ height: 450px; }  .monitor-preview{height: 460px; margin-left: 20px }  } /* Define mobile styles */
 
 @media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
